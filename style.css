@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(245, 240, 236);
+
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+#calc-display{
+    height: 60px;
+    font-size: 30px;
+    width: 248px;
+    margin-left: 3px;
+    background-color: rgb(236, 232, 227);
+    border: none;
+    
+}
+
+.num-btn {
+    width: 60px;
+    height: 60px;
+    font-size:  40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.num-btn:hover {
+    background-color: steelblue;
+    width: 56px;
+    height: 56px;
+}
+
+#clear {
+    background-color: rgb(235, 94, 94);
+}
+
+.operator {
+    background-color: rgb(245, 198, 111);
+}
